@@ -1,0 +1,88 @@
+.banner2 {
+  margin-top: 14px;
+  margin-bottom: 26px;
+  /* outline: 1px solid orange; */
+}
+
+.banner2-entry {
+  width: 234px;
+  height: 170px;
+  background-color: #5f5750;
+  padding: 3px 3px;
+  /* outline: 1px solid orangered; */
+}
+
+.banner2-entry-item {
+  width: 76px;
+  height: 82px;
+  /* outline: 1px solid red; */
+  padding-top: 10px;
+  color: #ccc;
+  position: relative;
+}
+
+.banner2-entry-item:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.banner2-entry-item .iconfont {
+  font-size: 26px;
+  display: block;
+  width: 76px;
+  height: 39px;
+  text-align: center;
+}
+
+.banner2-entry-item span {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+
+.banner2-photo {
+  width: 978px;
+  height: 170px;
+  /* outline: 1px solid blue; */
+}
+
+.banner2-photo img {
+  width: 316px;
+  height: 170px;
+  margin-right: 15px;
+}
+
+.banner2-photo a:last-child img {
+  margin-right: 0;
+
+}
+
+/* 给快捷入口设置边框线 */
+.banner2-entry-item::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 70px;
+  background-color: #665e57;
+  left: 0;
+  top: 6px;
+}
+
+.banner2-entry-item::after {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 1px;
+  background-color: #665e57;
+  left: 6px;
+  bottom: 0;
+}
+
+.banner2-entry-item:nth-child(3n + 1)::before {
+  content: none;
+}
+
+.banner2-entry-item:nth-child(n + 4)::after {
+  content: none;
+}
+

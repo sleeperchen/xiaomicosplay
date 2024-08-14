@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color: #333;
+  min-width: 1226px;
+  font: 14px/1.5 'Helvetica Neue', 'Helvetica', 'Arial', "Microsoft Yahei", 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', 'sans-serif';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6700;
+}
+
+/* 浮动处理三件套 */
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* 页面父级宽度 */
+.container {
+  width: 1226px;
+  margin: 0 auto;
+  /* outline: 1px solid #ff0000; */
+}

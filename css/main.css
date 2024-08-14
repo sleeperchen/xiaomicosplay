@@ -1,0 +1,86 @@
+.main {
+  padding: 22px 0;
+  background-color: #f5f5f5;
+}
+
+.banner3 {
+  display: block;
+  /* outline: 1px solid orange; */
+}
+
+.banner3 img {
+  width: 100%;
+}
+
+/* 橱窗部分 */
+
+.sc-top h2 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.more .iconfont {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  background-color: #aaa;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  /* vertical-align: 20px; */
+}
+
+.more:hover>.iconfont {
+  background-color: #ff7600;
+}
+
+.sc-item-first {
+  display: block;
+  width: 234px;
+  height: 614px;
+  /* margin-right: 14px; */
+  /* outline: 1px solid orange; */
+}
+
+.sc-item-first img {
+  width: 100%;
+}
+
+.sc-item-list {
+  width: 992px;
+  /* outline: 1px solid; */
+}
+
+.sc-item-list a {
+  /* display: block; */
+  width: 234px;
+  height: 300px;
+  background-color: #fff;
+  /* outline: 1px solid orange; */
+  margin-left: 14px;
+  margin-bottom: 14px;
+  text-align: center;  
+}
+
+.sc-item-list a img {
+  width: 160px;
+  height: 160px;
+  margin: 20px 0;
+  /* outline: 1px solid; */
+}
+
+.sc-item-list-title {
+  color: #333;
+}
+.sc-item-list-subtitle {
+  font-size: 12px;
+  font-weight: normal;
+  color: #b0b0b0;
+  margin: 3px 0 10px 0;
+}
+
+.sc-item-list-price {
+  color: #ff7600;
+}
